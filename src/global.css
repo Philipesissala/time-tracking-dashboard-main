@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Rubik;
+  background-color: hsl(226, 43%, 10%);
+}
+
+.App {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 8vh 160px
+}
+
+.wrapper-profile{
+  width: 330px;
+  margin: 0 auto;
+}
+
+.wrapper-cards {
+  display: grid;
+  width: 850px;
+  grid-template-columns: 1fr 1fr 1fr;
+}

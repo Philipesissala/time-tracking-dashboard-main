@@ -1,0 +1,41 @@
+.card {
+  display: grid;
+  gap: 1;
+  margin-right: 20px;
+}
+
+.card .card-header {
+  display: flex;
+  justify-content: end;
+  background-color: hsl(43, 84%, 65%);
+  border-radius: 10px 10px 0 0;
+}
+.card .card-body {
+  background-color: hsl(235, 46%, 20%);
+  color: white;
+  position: relative;
+  padding: 25px;
+  top: -15px;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.card .card-body .activities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.card .card-body .activities h2 {
+  font-weight: normal;
+}
+.card .card-body .time h2 {
+  font-size: 70px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.card .card-body .time p {
+  color: hsl(236, 100%, 87%);
+}
