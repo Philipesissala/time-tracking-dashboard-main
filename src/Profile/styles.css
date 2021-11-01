@@ -23,6 +23,11 @@
   font-size: 18px;
 }
 
+.card-profile .card-body .links a:hover{
+  transition: ease-in-out 300ms;
+  color: white;
+}
+
 .card-profile .card-header {
   background-color: hsl(264, 64%, 52%);
   padding: 30px;
